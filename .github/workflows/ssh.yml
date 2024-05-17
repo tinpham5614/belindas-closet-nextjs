@@ -29,7 +29,7 @@ jobs:
 
       - name: Execute Deployment Commands
         run: |
-          ssh -o StrictHostKeyChecking=no deployuser@<IP address> << 'EOF'
+          ssh -o StrictHostKeyChecking=no deployuser@44.238.195.106 << 'EOF'
             set -e # Exit immediately if a command exits with a non-zero status
             source ~/.profile || true
             source ~/.bashrc || true
